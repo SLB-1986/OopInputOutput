@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.NotSerializableException;
 import java.io.ObjectOutputStream;
 
-public class ExceptionHandling {
+public class ExceptionHandling extends ExceptionHandlingExample {
     public static void main(String[] args) {
         // NullPointerException example
         String nullString = null;

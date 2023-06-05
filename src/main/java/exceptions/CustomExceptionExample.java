@@ -1,8 +1,5 @@
 package exceptions;
 
-/**
- * Create a custom exception using inheritance and use the custom exception in the previous example.
- */
 public class CustomExceptionExample {
 
     public static void main(String[] args) {
@@ -17,7 +14,6 @@ public class CustomExceptionExample {
             e.printStackTrace();
         }
     }
-
 
     public static void methodA() throws CustomException {
         System.out.println("Inside method A.");

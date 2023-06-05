@@ -6,7 +6,7 @@ import java.io.*;
 
 public class Serialization {
     public static void main(String[] args) {
-        User user = new User("John Doe", 25);
+        User user = new User("Any Name", 25);
         String fileName = "user.ser";
 
         // Serialize the User object

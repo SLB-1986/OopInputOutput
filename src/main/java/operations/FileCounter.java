@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FileCounter {
     public static void main(String[] args) {
-        String folderPath = "path/to/folder";
+        String folderPath = "path/to/folder"; // "C:\\path\\to\\folder"
         countImagesAndPDFs(folderPath);
     }
 

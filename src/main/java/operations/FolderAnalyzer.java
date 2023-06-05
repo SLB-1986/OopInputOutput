@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FolderAnalyzer {
     public static void main(String[] args) {
-        String rootFolder = "path/to/root/folder";
+        String rootFolder = "path/to/root/folder"; //"C:\\path\\to\\root\\folder"
         analyzeFolder(rootFolder);
     }
 
